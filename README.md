@@ -8,7 +8,8 @@ This repository contains hands-on JavaScript lessons, prompt-engineering notes, 
 | --- | --- |
 | `01_chapter_JS_Basics/` | JavaScript introduction and a Hello World example |
 | `02_chapter_JS_Keywords_Identifiers/` | JavaScript engine, declarations, keywords, comments, and identifier examples |
-| `03_chapter_JS_Literals/` | Placeholder for JavaScript literals exercises |
+| `03_chapter_JS_Literals/` | JavaScript string, number, null, undefined, and other literal examples |
+| `04_Operators/` | JavaScript assignment, arithmetic, comparison, and logical operator examples |
 | `iq_notes/` | Notes on JavaScript identifier rules |
 | `00_chapter_Prompt_Eng/` | RICE-POT prompt-engineering material and Salesforce login automation examples |
 | `00_chapter_Prompt_Eng/Selenium_Framework_New/` | Maven Selenium/TestNG project |
@@ -21,9 +22,13 @@ Install [Node.js](https://nodejs.org/) to run the JavaScript examples. From the 
 ```powershell
 node .\01_chapter_JS_Basics\01_HelloWorld.js
 node .\02_chapter_JS_Keywords_Identifiers\09_IQ.js
+node .\03_chapter_JS_Literals\12_Null_Undefined.js
+node .\04_Operators\21_Arithmatic_Op.js
 ```
 
 The identifier example covers valid and invalid identifier forms, case sensitivity, Unicode identifiers, and common naming conventions. Invalid forms are kept in comments so the script remains executable.
+
+The literals examples cover numeric formats, strings, booleans, `null`, and `undefined`. The operators examples demonstrate assignment, arithmetic, equality and comparison, and logical operators.
 
 ## Salesforce Selenium projects
 
