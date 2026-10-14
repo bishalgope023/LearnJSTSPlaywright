@@ -11,6 +11,8 @@ This repository contains hands-on JavaScript lessons, prompt-engineering notes, 
 | `03_chapter_JS_Literals/` | JavaScript string, number, null, undefined, and other literal examples |
 | `04_Operators/` | JavaScript assignment, arithmetic, comparison, and logical operator examples |
 | `05_JS_Increment_Decrement_Op/` | Prefix and postfix increment/decrement, expression evaluation, and nullish coalescing examples |
+| `06_chatper_if_else_statement_Condition/` | `if`, nested `if`, `if/else`, and multiple conditional examples |
+| `07_Chapter_Switch.js/` | `switch` statements, grouped cases, API response-code examples, and related practice questions |
 | `iq_notes/` | Notes on JavaScript identifier rules |
 | `00_chapter_Prompt_Eng/` | RICE-POT prompt-engineering material and Salesforce login automation examples |
 | `00_chapter_Prompt_Eng/Selenium_Framework_New/` | Maven Selenium/TestNG project |
@@ -26,11 +28,13 @@ node .\02_chapter_JS_Keywords_Identifiers\09_IQ.js
 node .\03_chapter_JS_Literals\12_Null_Undefined.js
 node .\04_Operators\21_Arithmatic_Op.js
 node .\05_JS_Increment_Decrement_Op\38_ID.js
+node .\06_chatper_if_else_statement_Condition\46_IF.js
+node .\07_Chapter_Switch.js\50_switch.js
 ```
 
 The identifier example covers valid and invalid identifier forms, case sensitivity, Unicode identifiers, and common naming conventions. Invalid forms are kept in comments so the script remains executable.
 
-The literals examples cover numeric formats, strings, booleans, `null`, and `undefined`. The operators examples demonstrate assignment, arithmetic, equality and comparison, logical operators, and conditional expressions. The increment/decrement examples show how prefix and postfix forms affect both the expression result and the variable's updated value.
+The literals examples cover numeric formats, strings, booleans, `null`, and `undefined`. The operators examples demonstrate assignment, arithmetic, equality and comparison, logical operators, and conditional expressions. The increment/decrement examples show how prefix and postfix forms affect both the expression result and the variable's updated value. The conditional examples demonstrate `if`, nested `if`, and `if/else` branching, while the switch examples cover matching values, grouped cases, and response-code selection.
 
 ## Salesforce Selenium projects
 
