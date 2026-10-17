@@ -14,6 +14,9 @@ This repository contains hands-on JavaScript lessons, prompt-engineering notes, 
 | `06_chatper_if_else_statement_Condition/` | `if`, nested `if`, `if/else`, and multiple conditional examples |
 | `07_Chapter_Switch.js/` | `switch` statements, grouped cases, API response-code examples, and related practice questions |
 | `08_chapter_UserInput/` | Reading and converting user input with Node.js `readline` and `prompt-sync` |
+| `09_Chapter_Loops/` | `for` loop fundamentals and loop practice questions |
+| `10_chapter_Loops_WHILE/` | `while` loop examples and practice questions |
+| `11_chapter_Do_While/` | `do...while` and nested-loop examples with practice questions |
 | `iq_notes/` | Notes on JavaScript identifier rules |
 | `00_chapter_Prompt_Eng/` | RICE-POT prompt-engineering material and Salesforce login automation examples |
 | `00_chapter_Prompt_Eng/Selenium_Framework_New/` | Maven Selenium/TestNG project |
@@ -32,6 +35,9 @@ node .\05_JS_Increment_Decrement_Op\38_ID.js
 node .\06_chatper_if_else_statement_Condition\46_IF.js
 node .\07_Chapter_Switch.js\50_switch.js
 node .\08_chapter_UserInput\61_Promt_sync.js
+node .\09_Chapter_Loops\64_Loops_For.js
+node .\10_chapter_Loops_WHILE\70.js
+node .\11_chapter_Do_While\74.js
 ```
 
 The user-input chapter includes a built-in `readline` example that reports whether an entered number is even or odd. The `60_Node_UI.js` example uses the third-party `prompt-sync` package; install that package before running the example.
@@ -39,6 +45,8 @@ The user-input chapter includes a built-in `readline` example that reports wheth
 The identifier example covers valid and invalid identifier forms, case sensitivity, Unicode identifiers, and common naming conventions. Invalid forms are kept in comments so the script remains executable.
 
 The literals examples cover numeric formats, strings, booleans, `null`, and `undefined`. The operators examples demonstrate assignment, arithmetic, equality and comparison, logical operators, and conditional expressions. The increment/decrement examples show how prefix and postfix forms affect both the expression result and the variable's updated value. The conditional examples demonstrate `if`, nested `if`, and `if/else` branching, including an age-based eligibility check, while the switch examples cover matching values, grouped cases, and response-code selection.
+
+The loop chapters introduce `for`, `while`, and `do...while` iteration, including nested loops and related practice questions. The examples can be run individually with Node.js as shown above.
 
 ## Salesforce Selenium projects
 
