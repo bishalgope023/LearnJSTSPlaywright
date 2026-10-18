@@ -17,6 +17,9 @@ This repository contains hands-on JavaScript lessons, prompt-engineering notes, 
 | `09_Chapter_Loops/` | `for` loop fundamentals and loop practice questions |
 | `10_chapter_Loops_WHILE/` | `while` loop examples and practice questions |
 | `11_chapter_Do_While/` | `do...while` and nested-loop examples with practice questions |
+| `Self_Practise_ForLoop/` | Independent `for` loop exercises, including even/odd numbers, multiplication, arrays, and reverse counting |
+| `Self_Practise_WhileLoop/` | Independent `while` loop exercises covering counting, odd numbers, sums, and string traversal |
+| `self_Practise_DOWhile.js/` | Independent `do...while` loop exercises |
 | `iq_notes/` | Notes on JavaScript identifier rules |
 | `00_chapter_Prompt_Eng/` | RICE-POT prompt-engineering material and Salesforce login automation examples |
 | `00_chapter_Prompt_Eng/Selenium_Framework_New/` | Maven Selenium/TestNG project |
@@ -47,6 +50,18 @@ The identifier example covers valid and invalid identifier forms, case sensitivi
 The literals examples cover numeric formats, strings, booleans, `null`, and `undefined`. The operators examples demonstrate assignment, arithmetic, equality and comparison, logical operators, and conditional expressions. The increment/decrement examples show how prefix and postfix forms affect both the expression result and the variable's updated value. The conditional examples demonstrate `if`, nested `if`, and `if/else` branching, including an age-based eligibility check, while the switch examples cover matching values, grouped cases, and response-code selection.
 
 The loop chapters introduce `for`, `while`, and `do...while` iteration, including nested loops and related practice questions. The examples can be run individually with Node.js as shown above.
+
+### Independent loop practice
+
+The `Self_Practise_ForLoop/`, `Self_Practise_WhileLoop/`, and `self_Practise_DOWhile.js/` folders contain additional standalone exercises. For example, run them from the repository root with Node.js:
+
+```powershell
+node ".\Self_Practise_ForLoop\For Loop.js"
+node .\Self_Practise_WhileLoop\while_03.js
+node .\self_Practise_DOWhile.js\03.js
+```
+
+The `for` loop exercises include even/odd number checks, a multiplication table, array traversal, and reverse counting. The `while` loop exercises cover counting, odd numbers, summation, and string traversal. The `do...while` examples demonstrate loop execution before condition checking.
 
 ## Salesforce Selenium projects
 
