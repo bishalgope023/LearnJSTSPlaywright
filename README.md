@@ -17,9 +17,12 @@ This repository contains hands-on JavaScript lessons, prompt-engineering notes, 
 | `09_Chapter_Loops/` | `for` loop fundamentals and loop practice questions |
 | `10_chapter_Loops_WHILE/` | `while` loop examples and practice questions |
 | `11_chapter_Do_While/` | `do...while` and nested-loop examples with practice questions |
+| `12_chapters_Arrays/` | Array creation, updates, sorting, slicing, transformations, and destructuring |
+| `13_Functions/` | Function declarations, expressions, arrow functions, return values, spread arguments, template literals, and `let`/`const` examples |
 | `Self_Practise_ForLoop/` | Independent `for` loop exercises, including even/odd numbers, multiplication, arrays, and reverse counting |
 | `Self_Practise_WhileLoop/` | Independent `while` loop exercises covering counting, odd numbers, sums, and string traversal |
-| `self_Practise_DOWhile.js/` | Independent `do...while` loop exercises |
+| `self_Practise_DOWhile.js/` | Independent `do...while` loop exercises, plus the `14_chapter_Var_Let_Const/` declaration exercises |
+| `Test/` | Numbered standalone JavaScript practice exercises |
 | `iq_notes/` | Notes on JavaScript identifier rules |
 | `00_chapter_Prompt_Eng/` | RICE-POT prompt-engineering material and Salesforce login automation examples |
 | `00_chapter_Prompt_Eng/Selenium_Framework_New/` | Maven Selenium/TestNG project |
@@ -41,6 +44,9 @@ node .\08_chapter_UserInput\61_Promt_sync.js
 node .\09_Chapter_Loops\64_Loops_For.js
 node .\10_chapter_Loops_WHILE\70.js
 node .\11_chapter_Do_While\74.js
+node .\12_chapters_Arrays\83_Array.js
+node .\13_Functions\101_Function.js
+node .\13_Functions\120_Const.js
 ```
 
 The user-input chapter includes a built-in `readline` example that reports whether an entered number is even or odd. The `60_Node_UI.js` example uses the third-party `prompt-sync` package; install that package before running the example.
@@ -50,6 +56,8 @@ The identifier example covers valid and invalid identifier forms, case sensitivi
 The literals examples cover numeric formats, strings, booleans, `null`, and `undefined`. The operators examples demonstrate assignment, arithmetic, equality and comparison, logical operators, and conditional expressions. The increment/decrement examples show how prefix and postfix forms affect both the expression result and the variable's updated value. The conditional examples demonstrate `if`, nested `if`, and `if/else` branching, including an age-based eligibility check, while the switch examples cover matching values, grouped cases, and response-code selection.
 
 The loop chapters introduce `for`, `while`, and `do...while` iteration, including nested loops and related practice questions. The examples can be run individually with Node.js as shown above.
+
+The arrays chapter covers common array operations, sorting, slicing, concatenation, transformations, copying, and destructuring. The functions chapter demonstrates function forms and behavior, including parameters, return values, arrow functions, spread arguments, and template literals. Variable declaration examples for `var`, `let`, and `const` are also included in the functions and do-while practice folders. The `Test/` folder contains additional numbered practice scripts.
 
 ### Independent loop practice
 
